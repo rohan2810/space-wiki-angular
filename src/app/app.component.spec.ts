@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'space-wiki-angular'`, () => {
+  it(`should have as title 'angular-space-wiki'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('space-wiki-angular');
+    expect(app.title).toEqual('angular-space-wiki');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('space-wiki-angular app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('angular-space-wiki app is running!');
   });
 });
