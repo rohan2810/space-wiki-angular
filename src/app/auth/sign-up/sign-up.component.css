@@ -1,0 +1,36 @@
+.register-section{
+  margin: 100px;
+}
+
+
+p{
+  text-align: center;
+  margin-left: 100px;
+}
+.sign-up {
+  background-color: purple;
+  border-color: purple;
+  color: aliceblue;
+  fill: purple;
+  border: 1px solid;
+  border-radius: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding: 3px 16px;
+  opacity: 1;
+}
+button{
+margin-left: 100px;
+  margin-top: 20px;
+}
+input.ng-invalid.ng-touched{
+  border: 1px solid red;
+}
+
+

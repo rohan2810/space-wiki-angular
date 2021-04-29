@@ -1,0 +1,57 @@
+.login-section{
+  margin: 100px;
+}
+p{
+  text-align: center;
+  margin-left: 100px;
+}
+
+.login-failed{
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  border: 2px solid red;
+  width: 65%;
+  background-color: transparent;
+}
+
+.login-failed-text{
+  text-align: center;
+  margin-top: 5px;
+  font-weight: bold;
+  color: black;
+}
+.login-failed, .register-success{
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  border: 2px solid red;
+  width: 65%;
+  background-color: transparent;
+}
+
+.login-failed-text, .register-success-text{
+  text-align: center;
+  margin-top: 5px;
+  font-weight: bold;
+  color: black;
+}
+.login {
+  background-color: purple;
+  border-color: purple;
+  color: aliceblue;
+  fill: purple;
+  border: 1px solid;
+  border-radius: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding: 3px 16px;
+  opacity: 1;
+}
+
+
