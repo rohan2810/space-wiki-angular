@@ -5,7 +5,9 @@ export class PostModel {
     description: string;
     voteCount: number;
     userName: string;
-    subredditName: string;
+    subpostName: string;
     commentCount: number;
     duration: string;
+    upVote: boolean;
+    downVote: boolean;
 }

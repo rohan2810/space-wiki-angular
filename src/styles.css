@@ -1,16 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+html{    
+  padding: 0;
+  height: 100%;  
+}
+body{
+  margin-top: 63px;
+  height: 100%; 
+}
+
 input.ng-invalid.ng-touched {
   border: 1px solid red;
 }
 
 .login,
 .sign-up {
-  background-color: purple;
-  border-color: purple;
+  background-color: #0079D3;
+  border-color: #0079D3;
   color: aliceblue;
-  fill: purple;
+  fill: #0079D3;
   border: 1px solid;
-  border-radius: 15px;
+  border-radius: 4px;
   text-align: center;
   letter-spacing: 1px;
   text-decoration: none;
@@ -21,11 +30,4 @@ input.ng-invalid.ng-touched {
   text-transform: uppercase;
   padding: 3px 16px;
   opacity: 1;
-}
-button{
-  margin-left: 100px;
-  margin-top: 20px;
-}
-input.ng-invalid.ng-touched{
-  border: 1px solid red;
 }
