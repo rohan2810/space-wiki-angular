@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { SignupComponent } from './auth/signup/signup.component';
+import { SignUpComponent } from './auth/sign-up/sign-up.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { LoginComponent } from './auth/login/login.component';
@@ -31,7 +31,7 @@ import { UserProfileComponent } from './auth/user-profile/user-profile.component
   declarations: [
     AppComponent,
     HeaderComponent,
-    SignupComponent,
+    SignUpComponent,
     LoginComponent,
     HomeComponent,
     PostTileComponent,

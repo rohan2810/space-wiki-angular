@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { SignupComponent } from './auth/signup/signup.component';
+import { SignUpComponent } from './auth/sign-up/sign-up.component';
 import { LoginComponent } from './auth/login/login.component';
 import { HomeComponent } from './home/home.component';
 import { CreatePostComponent } from './post/create-post/create-post.component';
@@ -17,7 +17,7 @@ const routes: Routes = [
   { path: 'list-subposts', component: ListSubpostComponent },
   { path: 'create-post', component: CreatePostComponent, canActivate: [AuthGuard] },
   { path: 'create-subpost', component: CreateSubpostComponent, canActivate: [AuthGuard] },
-  { path: 'sign-up', component: SignupComponent },
+  { path: 'sign-up', component: SignUpComponent },
   { path: 'login', component: LoginComponent }
 ];
 
