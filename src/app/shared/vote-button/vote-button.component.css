@@ -11,7 +11,8 @@
 }
 .upvote,.downvote {
     cursor: pointer;
-    border-radius: 2px solid;        
+    border-radius: 2px;
+    border-style: solid;
 }
 .upvote:hover {
     color: green;

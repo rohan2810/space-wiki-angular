@@ -56,10 +56,10 @@
 }
 
 .btnCreatePost {
-    background-color: #0079D3;
-    border-color: #0079D3;
+    background-color: darkblue;
+    border-color: darkblue;
     color: aliceblue;
-    fill: #0079D3;
+    fill: darkblue;
     border: 1px solid;
     border-radius: 4px;
     text-align: center;
